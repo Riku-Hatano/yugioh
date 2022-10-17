@@ -1,0 +1,30 @@
+.cardList {
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .parentItem {
+    width: 220px;
+    background-color: green;
+    border: solid;
+  }
+  .parentItem:hover {
+    color: orange;
+  }
+  .flavorItem {
+    height: 200px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    background-color: khaki;
+  }
+  .monsterItem {
+    height: 40px;
+    line-height: 40px;
+  }
