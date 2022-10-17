@@ -1,0 +1,19 @@
+.parent-modal-window {
+  display: none;
+  position: fixed;
+  top: 10%;
+  left: 15%;
+  margin: auto;
+  width: 70%;
+  height: 450px;
+  background-color: rgba(255, 255, 255, 0.5)
+}
+
+.image-modal-window {
+  display: block;
+  margin: auto;
+  background-color: black;
+  margin-top: 25px;
+  width: 250px;
+  height: 400px;
+}
